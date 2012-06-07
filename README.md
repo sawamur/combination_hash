@@ -1,6 +1,6 @@
 # CombinationHash
 
-The hash has same values associated with combination of arrayed parameters.
+The hash that retuns same value for a combination of arrayed parameters associated as a key
 
 ## Example
 
@@ -23,9 +23,15 @@ p ch[1,2] #=> 10
 
 ## Install
 
+
+Gemfile
+
 ```
-gem 'combination_hash'
+gem 'combination_hash',:git => "git://github.com/sawamur/combination_hash.git"
 ```
+
+`bundle install`
+
 
 ## Copyright
 
