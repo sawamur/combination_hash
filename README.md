@@ -27,11 +27,12 @@ p ch[1,2] #=> 10
 Gemfile
 
 ```
-gem 'combination_hash',:git => "git://github.com/sawamur/combination_hash.git"
+gem 'combination_hash'
 ```
 
 `bundle install`
 
+or just `$ gem install combination_hash`
 
 ## Copyright
 
