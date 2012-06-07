@@ -20,10 +20,12 @@ Gem::Specification.new do |s|
     ".document",
     ".rspec",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.md",
     "Rakefile",
     "VERSION",
+    "combination_hash.gemspec",
     "lib/combination_hash.rb",
     "spec/combination_hash_spec.rb",
     "spec/spec_helper.rb"
