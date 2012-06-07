@@ -1,18 +1,33 @@
-= combination_hash
+# CombinationHash
 
-Description goes here.
+The hash has same values associated with combination of arrayed parameters.
 
-== Contributing to combination_hash
- 
-* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
-* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
-* Fork the project.
-* Start a feature/bugfix branch.
-* Commit and push until you are happy with your contribution.
-* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
-* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+## Example
 
-== Copyright
+```ruby
+ch = CombinationHash.new
+ch[2,3,4] = 8
+p ch[2,3,4] #=> 8
+p ch[3,2,4] #=> 8
+p ch[4,2,3] #=> 8
+```
+
+### Conctructor Methods
+
+```ruby
+ch = CombinationHash([3,4,5] => 6
+                     [2,1] => 10)
+					 
+p ch[1,2] #=> 10
+```
+
+## Install
+
+```
+gem 'combination_hash'
+```
+
+## Copyright
 
 Copyright (c) 2012 Masaki Sawamura. See LICENSE.txt for
 further details.

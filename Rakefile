@@ -15,11 +15,11 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "combination_hash"
-  gem.homepage = "http://github.com/sawamura-nttr/combination_hash"
+  gem.homepage = "http://github.com/sawamur/combination_hash"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
-  gem.email = "m-sawa@nttr.co.jp"
+  gem.summary = %Q{Hash that has same value on combination of arrayed params for a key}
+  gem.description = %Q{Hash that has same value on combination of arrayed params for a key}
+  gem.email = "masaki.sw@gmail.com"
   gem.authors = ["Masaki Sawamura"]
   # dependencies defined in Gemfile
 end
